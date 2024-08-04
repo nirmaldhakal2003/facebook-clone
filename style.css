@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+}
+body aside, main{
+    display: flex;
+    margin-top: 1%;
+    
+}
+
+/* header section editing */
+header{
+    display: flex;
+    position:sticky;
+    background-color: rgb(230, 241, 230);
+    height: 3rem;
+    align-items: center;
+}
+.logo{
+margin: 10px;
+}
+.logo a i{
+    font-size: 40px;
+}
+
+.search-box {
+    position: relative;
+    width: 300px;
+    margin-left: 1rem;
+    box-sizing: border-box;  
+  }
+
+ .header-icon{
+    margin-left: 15%;
+  }
+  
+  .header-icon a{
+    text-decoration: none;
+    padding-left: 15px; 
+  }
+
+  .header-icon a i{
+    font-size: 25px;
+    border: 1px solid rgb(123, 93, 243);  
+  }
+
+  .header-icon a i:hover{
+    background-color: bisque;
+  }
+
+  .right-side-icon{
+    margin-left: 35%;
+  }
+
+  .right-side-icon a{
+    padding-left: 15px;
+  }
+
+  .right-side-icon a i{
+    font-size: 25px;
+    display: inline-block;
+  }
+
+  /* aside left section editing */
+  aside {
+    width: 20%;
+    height: auto;
+    background-color: rgb(235, 217, 252);
+    position: sticky;
+  }
+  aside section ul li a i img{
+    width: 15%;
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 35px;
+    margin-top: 5px;
+  }
+  aside section ul{
+    width: 100%;
+  }
+
+  aside section ul li{
+    list-style: none;
+    width: 100%;
+
+ }
+ aside section ul li a{
+  text-decoration: none;
+  text-align: center;
+ }
+ aside section ul li a i{
+  border: 1px solid white;
+    border-radius: 50%;
+    font-size: 150%;
+    color: rgb(44, 131, 245);
+ }
+ aside section ul li a span{
+  text-align: center;
+  margin-left: 15px;
+ }
+ aside section ul li:hover{
+  background-color: beige;
+ }
+ aside section ul li{
+  margin-top: 10%;
+ }
+
+ /* main section editing */
+ main{
+  background-color: red;
+  width: 40%;
+  margin-left: 30%;
+  margin-top: -355px;
+ }
+
+ /* aside right edithing satrt */
+ .right {
+  margin-left: 80%;
+  background-color: rgb(235, 217, 252);
+  margin-top: -80px;
+  position: sticky;
+ }
+
